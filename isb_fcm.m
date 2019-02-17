@@ -5,7 +5,7 @@ isb =  xlsread('ISB_Project.xlsx','Data');
 
 % X = isb(:,3:6);
 X = isb(:,3:5);
-X(147, :) = [];
+%X(147, :) = [];
 rng default
 
 clust = zeros(size(X,1),6);
