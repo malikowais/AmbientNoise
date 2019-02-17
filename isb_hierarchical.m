@@ -4,7 +4,7 @@ isb =  xlsread('ISB_Project.xlsx','Data');
 
 % X = isb(:,3:6);
 X = isb(:,3:5);
-X(147, :) = [];
+%X(147, :) = [];
 %%% Compute different distance measures
 
 Yeu = pdist(X,'euclidean');
